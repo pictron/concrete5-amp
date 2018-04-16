@@ -1,7 +1,7 @@
 <?php
 namespace Concrete\Package\Amp\Html\Object;
 
-use Concrete\Core\File\File;
+use Concrete\Core\Entity\File\File;
 use HtmlObject\Traits\Tag;
 use Page;
 

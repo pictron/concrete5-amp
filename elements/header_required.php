@@ -67,7 +67,7 @@ if (is_object($c)) {
     }
 
     /** @var \Concrete\Core\User\UserInfo $author */
-    $author = Core::make('Concrete\Core\User\UserInfoFactory')->getByID($c->getCollectionUserID());
+    $author = Core::make('Concrete\Core\User\UserInfoRepository')->getByID($c->getCollectionUserID());
 
     /** @see https://developers.google.com/search/docs/data-types/articles */
     $jsonLD = array(
